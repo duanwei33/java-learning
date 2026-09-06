@@ -73,7 +73,3 @@ Conventions that hold throughout:
 - **Comments mix Chinese and English.** `README-array.md` and most `.java` comments are Chinese notes from the tutorial; `Array.java` is commented in English. Match the language of the file you are editing.
 - **No `.gitignore`,** so `javac` output (`.class`) is picked up by `git status` and some is already committed. Don't commit new `.class` files.
 - **Each topic directory carries a `README-<topic>.md`** of Chinese tutorial notes, structured like `01-basics/array/README-array.md`: `#` topic title, `##` sections, `###` one takeaway per bullet, then fenced code blocks and ASCII box diagrams. Add notes there rather than creating a new doc.
-
-## Git state
-
-Single commit (`Initial commit`) on `main`, containing only `01-basics/`. Everything under `02-oop/`, plus `CODEBUDDY.md` itself, is untracked — nothing there is recoverable from git if deleted.
